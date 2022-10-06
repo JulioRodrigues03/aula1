@@ -1,0 +1,17 @@
+[2022-09-24 12:43:10.013] [exthost] [info] Extension host with pid 271 started
+[2022-09-24 12:43:10.048] [exthost] [info] Lock '/home/julio/.vscode-server/data/User/workspaceStorage/3aca253ad935397f53a4452369efad96/vscode.lock': Lock acquired.
+[2022-09-24 12:43:10.229] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-09-24 12:43:10.246] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2022-09-24 12:43:10.257] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-09-24 12:43:10.438] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-09-24 12:43:10.651] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-09-24 12:43:10.853] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-09-24 12:43:10.882] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-09-24 12:43:10.889] [exthost] [info] Eager extensions activated
+[2022-09-24 12:43:21.692] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-09-24 12:43:21.697] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-09-24 12:43:21.753] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-09-24 12:43:50.211] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode.cpptools, startup: false, activationEvent: 'onLanguage:cpp'
+[2022-09-24 12:44:25.720] [exthost] [info] Extension host terminating: received terminate message from renderer
+[2022-09-24 12:44:25.720] [exthost] [info] Lock '/home/julio/.vscode-server/data/User/workspaceStorage/3aca253ad935397f53a4452369efad96/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+[2022-09-24 12:44:25.806] [exthost] [info] Extension host with pid 271 exiting with code 0

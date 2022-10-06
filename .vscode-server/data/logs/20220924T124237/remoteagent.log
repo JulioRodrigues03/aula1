@@ -1,0 +1,46 @@
+[2022-09-24 12:42:37.247] [remoteagent] [info] Extension host agent started.
+[2022-09-24 12:42:37.699] [remoteagent] [info] [127.0.0.1][e0a8cfd1][ManagementConnection] New connection established.
+[2022-09-24 12:42:38.215] [remoteagent] [info] [127.0.0.1][9a51c0d3][ExtensionHostConnection] New connection established.
+[2022-09-24 12:42:38.224] [remoteagent] [info] [127.0.0.1][9a51c0d3][ExtensionHostConnection] <173> Launched Extension Host Process.
+[2022-09-24 12:43:05.557] [remoteagent] [info] [127.0.0.1][e0a8cfd1][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2022-09-24 12:43:05.582] [remoteagent] [info] [127.0.0.1][9a51c0d3][ExtensionHostConnection] <173> Extension Host Process exited with code: 0, signal: null.
+[2022-09-24 12:43:07.832] [remoteagent] [info] [127.0.0.1][a4836f25][ManagementConnection] New connection established.
+[2022-09-24 12:43:09.317] [remoteagent] [info] [127.0.0.1][f0d2fb39][ExtensionHostConnection] New connection established.
+[2022-09-24 12:43:09.332] [remoteagent] [info] [127.0.0.1][f0d2fb39][ExtensionHostConnection] <271> Launched Extension Host Process.
+[2022-09-24 12:43:28.229] [remoteagent] [info] Getting Manifest... ms-vscode.cpptools-extension-pack
+[2022-09-24 12:43:28.516] [remoteagent] [info] Installing extension: ms-vscode.cpptools-extension-pack
+[2022-09-24 12:43:29.326] [remoteagent] [info] Getting Manifest... ms-vscode.cpptools
+[2022-09-24 12:43:29.587] [remoteagent] [info] Getting Manifest... ms-vscode.cmake-tools
+[2022-09-24 12:43:30.051] [remoteagent] [info] Getting Manifest... twxs.cmake
+[2022-09-24 12:43:30.319] [remoteagent] [info] Getting Manifest... ms-vscode.cpptools-themes
+[2022-09-24 12:43:30.548] [remoteagent] [info] Installing extension: ms-vscode.cpptools
+[2022-09-24 12:43:30.549] [remoteagent] [info] Installing extension: ms-vscode.cmake-tools
+[2022-09-24 12:43:30.549] [remoteagent] [info] Installing extension: twxs.cmake
+[2022-09-24 12:43:30.550] [remoteagent] [info] Installing extension: ms-vscode.cpptools-themes
+[2022-09-24 12:43:31.495] [remoteagent] [info] Downloaded extension: ms-vscode.cpptools-themes /home/julio/.vscode-server/data/CachedExtensionVSIXs/ms-vscode.cpptools-themes-1.0.0
+[2022-09-24 12:43:31.524] [remoteagent] [info] Extracted extension to /home/julio/.vscode-server/extensions/.5a385eb4-b311-4f15-b8cd-64b90e29a39b: ms-vscode.cpptools-themes
+[2022-09-24 12:43:31.530] [remoteagent] [info] Renamed to /home/julio/.vscode-server/extensions/ms-vscode.cpptools-themes-1.0.0
+[2022-09-24 12:43:31.534] [remoteagent] [info] Extracting completed. ms-vscode.cpptools-themes
+[2022-09-24 12:43:31.652] [remoteagent] [info] Downloaded extension: ms-vscode.cmake-tools /home/julio/.vscode-server/data/CachedExtensionVSIXs/ms-vscode.cmake-tools-1.12.27
+[2022-09-24 12:43:32.076] [remoteagent] [info] Extracted extension to /home/julio/.vscode-server/extensions/.14a0a3b7-8eeb-4cf6-915d-c9269a623424: ms-vscode.cmake-tools
+[2022-09-24 12:43:32.083] [remoteagent] [info] Renamed to /home/julio/.vscode-server/extensions/ms-vscode.cmake-tools-1.12.27
+[2022-09-24 12:43:32.088] [remoteagent] [info] Extracting completed. ms-vscode.cmake-tools
+[2022-09-24 12:43:33.070] [remoteagent] [info] Downloaded extension: twxs.cmake /home/julio/.vscode-server/data/CachedExtensionVSIXs/twxs.cmake-0.0.17
+[2022-09-24 12:43:33.322] [remoteagent] [info] Extracted extension to /home/julio/.vscode-server/extensions/.a6d0eb6e-d539-438a-a640-225630b4dccc: twxs.cmake
+[2022-09-24 12:43:33.327] [remoteagent] [info] Renamed to /home/julio/.vscode-server/extensions/twxs.cmake-0.0.17
+[2022-09-24 12:43:33.329] [remoteagent] [info] Extracting completed. twxs.cmake
+[2022-09-24 12:43:45.189] [remoteagent] [info] Downloaded extension: ms-vscode.cpptools /home/julio/.vscode-server/data/CachedExtensionVSIXs/ms-vscode.cpptools-1.12.4-linux-x64
+[2022-09-24 12:43:48.812] [remoteagent] [info] Extracted extension to /home/julio/.vscode-server/extensions/.a6ef7d52-1b29-45f7-8955-38c40f934760: ms-vscode.cpptools
+[2022-09-24 12:43:48.822] [remoteagent] [info] Renamed to /home/julio/.vscode-server/extensions/ms-vscode.cpptools-1.12.4-linux-x64
+[2022-09-24 12:43:48.836] [remoteagent] [info] Extracting completed. ms-vscode.cpptools
+[2022-09-24 12:43:49.395] [remoteagent] [info] Downloaded extension: ms-vscode.cpptools-extension-pack /home/julio/.vscode-server/data/CachedExtensionVSIXs/ms-vscode.cpptools-extension-pack-1.3.0
+[2022-09-24 12:43:49.410] [remoteagent] [info] Extracted extension to /home/julio/.vscode-server/extensions/.00775df8-b5ec-4531-9374-815abe3957b8: ms-vscode.cpptools-extension-pack
+[2022-09-24 12:43:49.414] [remoteagent] [info] Renamed to /home/julio/.vscode-server/extensions/ms-vscode.cpptools-extension-pack-1.3.0
+[2022-09-24 12:43:49.416] [remoteagent] [info] Extracting completed. ms-vscode.cpptools-extension-pack
+[2022-09-24 12:43:49.416] [remoteagent] [info] Extension installed successfully: ms-vscode.cpptools-themes
+[2022-09-24 12:43:49.416] [remoteagent] [info] Extension installed successfully: ms-vscode.cmake-tools
+[2022-09-24 12:43:49.416] [remoteagent] [info] Extension installed successfully: twxs.cmake
+[2022-09-24 12:43:49.416] [remoteagent] [info] Extension installed successfully: ms-vscode.cpptools
+[2022-09-24 12:43:49.416] [remoteagent] [info] Extension installed successfully: ms-vscode.cpptools-extension-pack
+[2022-09-24 12:44:25.721] [remoteagent] [info] [127.0.0.1][a4836f25][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2022-09-24 12:44:25.832] [remoteagent] [info] [127.0.0.1][f0d2fb39][ExtensionHostConnection] <271> Extension Host Process exited with code: 0, signal: null.

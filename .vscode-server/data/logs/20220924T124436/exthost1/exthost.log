@@ -1,0 +1,143 @@
+[2022-09-24 12:44:39.181] [exthost] [info] Extension host with pid 681 started
+[2022-09-24 12:44:39.235] [exthost] [info] Lock '/home/julio/.vscode-server/data/User/workspaceStorage/3aca253ad935397f53a4452369efad96/vscode.lock': Lock acquired.
+[2022-09-24 12:44:39.826] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode.cpptools, startup: false, activationEvent: 'onLanguage:cpp'
+[2022-09-24 12:44:40.032] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-09-24 12:44:40.038] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2022-09-24 12:44:40.044] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-09-24 12:44:40.219] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-09-24 12:44:40.383] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-09-24 12:44:40.756] [exthost] [info] Extension host terminating: received terminate message from renderer
+[2022-09-24 12:44:40.760] [exthost] [info] Lock '/home/julio/.vscode-server/data/User/workspaceStorage/3aca253ad935397f53a4452369efad96/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+[2022-09-24 12:44:40.768] [exthost] [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at Object.A [as canceled] (/home/julio/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:7:1204)
+	at /home/julio/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:95:9092
+	at Array.forEach (<anonymous>)
+	at i.dispose (/home/julio/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:95:9040)
+	at b.terminate (/home/julio/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:97:10988)
+	at b.terminate (/home/julio/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:101:620)
+	at m (/home/julio/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:111:19088)
+	at /home/julio/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:111:17016
+	at b.invoke (/home/julio/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at p.deliver (/home/julio/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at v.fire (/home/julio/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at a.fire (/home/julio/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:69:19042)
+	at r._receiveMessage (/home/julio/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:69:23854)
+	at /home/julio/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:69:21224
+	at b.invoke (/home/julio/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at p.deliver (/home/julio/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at v.fire (/home/julio/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at v.acceptChunk (/home/julio/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:69:15873)
+	at /home/julio/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:69:15003
+	at b.invoke (/home/julio/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at p.deliver (/home/julio/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at v.fire (/home/julio/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at v._processReadQueue (/home/julio/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:69:34271)
+	at v.acceptFrame (/home/julio/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:69:33927)
+	at b._acceptChunk (/home/julio/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:69:31891)
+	at /home/julio/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:69:28880
+	at Socket.d (/home/julio/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:69:26763)
+	at Socket.emit (node:events:526:28)
+	at addChunk (node:internal/streams/readable:315:12)
+	at readableAddChunk (node:internal/streams/readable:289:9)
+	at Socket.Readable.push (node:internal/streams/readable:228:10)
+	at TCP.onStreamRead (node:internal/stream_base_commons:190:23) 
+[2022-09-24 12:44:40.769] [exthost] [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at Object.A [as canceled] (/home/julio/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:7:1204)
+	at /home/julio/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:95:9092
+	at Array.forEach (<anonymous>)
+	at i.dispose (/home/julio/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:95:9040)
+	at b.terminate (/home/julio/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:97:10988)
+	at b.terminate (/home/julio/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:101:620)
+	at m (/home/julio/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:111:19088)
+	at /home/julio/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:111:17016
+	at b.invoke (/home/julio/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at p.deliver (/home/julio/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at v.fire (/home/julio/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at a.fire (/home/julio/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:69:19042)
+	at r._receiveMessage (/home/julio/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:69:23854)
+	at /home/julio/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:69:21224
+	at b.invoke (/home/julio/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at p.deliver (/home/julio/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at v.fire (/home/julio/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at v.acceptChunk (/home/julio/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:69:15873)
+	at /home/julio/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:69:15003
+	at b.invoke (/home/julio/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at p.deliver (/home/julio/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at v.fire (/home/julio/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at v._processReadQueue (/home/julio/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:69:34271)
+	at v.acceptFrame (/home/julio/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:69:33927)
+	at b._acceptChunk (/home/julio/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:69:31891)
+	at /home/julio/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:69:28880
+	at Socket.d (/home/julio/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:69:26763)
+	at Socket.emit (node:events:526:28)
+	at addChunk (node:internal/streams/readable:315:12)
+	at readableAddChunk (node:internal/streams/readable:289:9)
+	at Socket.Readable.push (node:internal/streams/readable:228:10)
+	at TCP.onStreamRead (node:internal/stream_base_commons:190:23) 
+[2022-09-24 12:44:40.867] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-09-24 12:44:40.882] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-09-24 12:44:40.886] [exthost] [info] Eager extensions activated
+[2022-09-24 12:44:40.887] [exthost] [error] Activating extension vscode.emmet failed due to an error:
+[2022-09-24 12:44:40.887] [exthost] [error] Canceled: Canceled
+	at new C (/home/julio/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:85:43375)
+	at i._remoteCall (/home/julio/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:95:13746)
+	at Proxy.R.<computed>.U.charCodeAt.R.<computed> (/home/julio/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:95:10301)
+	at T.initializeExtensionStorage (/home/julio/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:87:143852)
+	at new t (/home/julio/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:78:106538)
+	at new C (/home/julio/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:78:107554)
+	at b._loadExtensionContext (/home/julio/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:97:15295)
+	at b._doActivateExtension (/home/julio/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:97:15011)
+	at b._activateExtension (/home/julio/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:97:13880)
+	at Object.actualActivateExtension (/home/julio/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:97:9877)
+	at E._activate (/home/julio/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:85:8241)
+	at E._waitForDepsThenActivate (/home/julio/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:85:8177)
+	at E._initialize (/home/julio/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:85:7541)
+	at new E (/home/julio/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:85:7340)
+	at P._createAndSaveOperation (/home/julio/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:85:6965)
+	at P._handleActivationRequest (/home/julio/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:85:6876)
+	at /home/julio/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:85:5308
+	at Array.map (<anonymous>)
+	at P._activateExtensions (/home/julio/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:85:5296)
+	at P.activateById (/home/julio/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:85:5172)
+	at b._activateById (/home/julio/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:97:11926)
+	at b._activateOneStartupFinished (/home/julio/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:97:17886)
+	at b._activateAllStartupFinished (/home/julio/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:97:18264)
+	at /home/julio/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:97:18761
+[2022-09-24 12:44:40.887] [exthost] [error] Activating extension vscode.merge-conflict failed due to an error:
+[2022-09-24 12:44:40.887] [exthost] [error] Canceled: Canceled
+	at new C (/home/julio/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:85:43375)
+	at i._remoteCall (/home/julio/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:95:13746)
+	at Proxy.R.<computed>.U.charCodeAt.R.<computed> (/home/julio/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:95:10301)
+	at T.initializeExtensionStorage (/home/julio/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:87:143852)
+	at new t (/home/julio/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:78:106538)
+	at new C (/home/julio/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:78:107554)
+	at b._loadExtensionContext (/home/julio/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:97:15295)
+	at b._doActivateExtension (/home/julio/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:97:15011)
+	at b._activateExtension (/home/julio/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:97:13880)
+	at Object.actualActivateExtension (/home/julio/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:97:9877)
+	at E._activate (/home/julio/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:85:8241)
+	at E._waitForDepsThenActivate (/home/julio/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:85:8177)
+	at E._initialize (/home/julio/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:85:7541)
+	at new E (/home/julio/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:85:7340)
+	at P._createAndSaveOperation (/home/julio/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:85:6965)
+	at P._handleActivationRequest (/home/julio/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:85:6876)
+	at /home/julio/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:85:5308
+	at Array.map (<anonymous>)
+	at P._activateExtensions (/home/julio/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:85:5296)
+	at P.activateById (/home/julio/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:85:5172)
+	at b._activateById (/home/julio/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:97:11926)
+	at b._activateOneStartupFinished (/home/julio/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:97:17886)
+	at b._activateAllStartupFinished (/home/julio/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:97:18264)
+	at /home/julio/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:97:18761
+[2022-09-24 12:44:40.892] [exthost] [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at new C (/home/julio/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:85:43375)
+	at i._remoteCall (/home/julio/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:95:13746)
+	at Proxy.R.<computed>.U.charCodeAt.R.<computed> (/home/julio/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:95:10301)
+	at M.resolveProxy (/home/julio/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:96:21095)
+	at Object.resolveProxy (/home/julio/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:106:60284)
+	at useProxySettings (/home/julio/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/node_modules/vscode-proxy-agent/out/index.js:159:16)
+	at /home/julio/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/node_modules/vscode-proxy-agent/out/index.js:107:13
+	at /home/julio/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/node_modules/vscode-proxy-agent/out/index.js:336:13
+	at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+[2022-09-24 12:44:40.973] [exthost] [warning] DiagnosticCollection with name '/home/julio' does already exist.
+[2022-09-24 12:44:41.024] [exthost] [info] Extension host with pid 681 exiting with code 0

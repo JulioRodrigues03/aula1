@@ -1,0 +1,14 @@
+[2022-08-18 21:20:15.427] [exthost] [info] Extension host with pid 95 started
+[2022-08-18 21:20:15.432] [exthost] [error] Error: EEXIST: file already exists, open '/home/julio/.vscode-server/data/User/workspaceStorage/3aca253ad935397f53a4452369efad96/vscode.lock'
+[2022-08-18 21:20:15.440] [exthost] [info] Lock '/home/julio/.vscode-server/data/User/workspaceStorage/3aca253ad935397f53a4452369efad96/vscode.lock': Lock acquired.
+[2022-08-18 21:20:15.539] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-08-18 21:20:15.551] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2022-08-18 21:20:15.564] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-08-18 21:20:15.678] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-08-18 21:20:15.781] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-08-18 21:20:15.879] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-08-18 21:20:15.908] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-08-18 21:20:15.912] [exthost] [info] Eager extensions activated
+[2022-08-18 21:41:37.936] [exthost] [info] Extension host terminating: received terminate message from renderer
+[2022-08-18 21:41:37.937] [exthost] [info] Lock '/home/julio/.vscode-server/data/User/workspaceStorage/3aca253ad935397f53a4452369efad96/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+[2022-08-18 21:41:37.951] [exthost] [info] Extension host with pid 95 exiting with code 0

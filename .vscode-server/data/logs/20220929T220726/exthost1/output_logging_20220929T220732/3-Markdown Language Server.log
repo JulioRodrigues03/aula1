@@ -1,0 +1,9 @@
+[Trace 01:08:00.545] Server: connection.languages.diagnostics.on: file:///home/julio/.bash_history
+[Trace 01:08:00.547] Server: connection.languages.diagnostics.on: file:///home/julio/.bash_history
+[Debug 01:08:00.658] TableOfContentsProvider: create - file:///home/julio/.bash_history
+[Debug 01:08:00.765] LinkProvider: compute - file:///home/julio/.bash_history
+[Debug 01:08:00.835] MdFoldingProvider: provideFoldingRanges - file:///home/julio/.bash_history
+[Debug 01:10:47.889] TableOfContentsProvider: create - file:///home/julio/.bash_history
+[Trace 01:10:47.889] Server: connection.languages.diagnostics.on: file:///home/julio/.bash_history
+[Debug 01:10:47.902] LinkProvider: compute - file:///home/julio/.bash_history
+[Debug 01:10:48.078] MdFoldingProvider: provideFoldingRanges - file:///home/julio/.bash_history

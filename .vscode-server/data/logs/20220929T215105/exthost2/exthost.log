@@ -1,0 +1,26 @@
+[2022-09-29 21:51:21.150] [exthost] [info] Extension host with pid 206 started
+[2022-09-29 21:51:21.293] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-09-29 21:51:21.316] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2022-09-29 21:51:21.330] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-09-29 21:51:21.364] [exthost] [info] Lock '/home/julio/.vscode-server/data/User/workspaceStorage/3aca253ad935397f53a4452369efad96/vscode.lock': Lock acquired.
+[2022-09-29 21:51:21.483] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-09-29 21:51:21.556] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-09-29 21:51:22.476] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-09-29 21:51:22.525] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-09-29 21:51:22.538] [exthost] [info] Eager extensions activated
+[2022-09-29 21:51:26.977] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode.cpptools, startup: false, activationEvent: 'onLanguage:cpp'
+[2022-09-29 21:51:28.180] [exthost] [info] Extension host terminating: received terminate message from renderer
+[2022-09-29 21:51:28.180] [exthost] [info] Lock '/home/julio/.vscode-server/data/User/workspaceStorage/3aca253ad935397f53a4452369efad96/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+[2022-09-29 21:51:28.210] [exthost] [error] ProxyResolver#resolveProxy DIRECT Canceled: Canceled
+	at new C (/home/julio/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:85:43375)
+	at i._remoteCall (/home/julio/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:95:13746)
+	at Proxy.R.<computed>.U.charCodeAt.R.<computed> (/home/julio/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:95:10301)
+	at M.resolveProxy (/home/julio/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:96:21095)
+	at Object.resolveProxy (/home/julio/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/workbench/api/node/extensionHostProcess.js:106:60284)
+	at useProxySettings (/home/julio/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/node_modules/vscode-proxy-agent/out/index.js:159:16)
+	at /home/julio/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/node_modules/vscode-proxy-agent/out/index.js:107:13
+	at /home/julio/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/node_modules/vscode-proxy-agent/out/index.js:336:13
+	at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+[2022-09-29 21:51:30.282] [exthost] [error] Error: Stopping the server timed out
+	at /home/julio/.vscode-server/extensions/ms-vscode.cpptools-1.12.4-linux-x64/dist/main.js:56239:23
+[2022-09-29 21:51:30.282] [exthost] [info] Extension host with pid 206 exiting with code 0
